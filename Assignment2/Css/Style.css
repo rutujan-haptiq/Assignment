@@ -1,0 +1,567 @@
+.ContainerMain{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin: auto;
+    width: 100%;
+    font-family: "Heebo", serif;
+    
+}
+.Container{
+    margin: auto;
+    width: 1170px;
+}
+
+
+
+.Head{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 27px;
+    
+}
+
+ul{
+    list-style: none;
+    line-height: 29.38px;
+    display: flex;
+    justify-content:flex-end;
+    gap:20px;    
+    
+}
+a:hover{
+    transform: scale(1.1);
+    color: brown;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+     
+    width: 106px;
+height: 43px;
+
+}
+
+
+
+.Content{
+    margin-left: 144px;
+}
+
+.Heading{
+    width: 506px;
+    height: 105px;
+    margin-top: 158px;
+    font-size: 44px;
+   
+    
+}
+.paraOne{
+    width: 497px;
+height: 66px;
+margin-top: 39px;
+
+
+font-size: 16px;
+font-weight: 400;
+line-height: 23.5px;
+
+}
+
+.btn a{
+    width: 167px;
+    height: 21px; 
+    font-size: 20px;
+    color: aliceblue;
+}
+.btn{
+    width: 208px;
+    border: rgba(255, 100, 100, 1);
+  height: 47px;
+  border-radius: 2px 0px 0px 0px;
+  background-color: rgba(255, 100, 100, 1);
+  margin-top: 47px;
+
+
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}
+
+.MainContent{
+    display: flex;
+    gap:120px;
+}
+
+.personLogo{
+    width:243px;
+    height: 243px;
+}
+
+.profileImage{
+    width: 243px;
+height: 243px;
+margin-top: 150px;
+border-radius: 50%;
+}
+
+
+
+
+
+
+/*----------------------------------------------------------------------------------------*/
+
+.Post{
+    
+    
+    width: 100%;
+    padding-left: 400px;
+    margin-top: 125px;
+    box-sizing:border-box;
+    background-color: rgba(237, 247, 250, 1);
+}
+
+.PostHead{
+    
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+   
+    
+}
+
+.viewAll{
+    margin-top: 27px;
+    margin-right: 147px;
+    font-size: 16px;
+}
+
+  .card{
+     margin-right: 200px;
+    display: flex;
+   gap:200px;
+    padding-bottom: 40px;
+  }
+
+  .CardOne:hover{
+    transform: scale(-10px);
+    box-shadow: 0 6px 10px rgba(0,0,0,0.15);
+  }
+  .CardOne{
+    width: 418px; 
+
+     background-color: rgba(255, 255, 255, 1);
+  }
+
+
+  
+
+  .RecentPost{
+    font-size: 22px;
+    line-height: 60px;
+  }
+
+  
+  .Info{
+    display: flex;
+    margin-left: 23px;
+    gap:30px
+  }
+
+  .CardOne p{
+    margin-top: 21px;
+    margin-left: 23px;
+
+    width: 368px;
+    height: 117px;
+
+
+  }
+
+  .CardOne h3{
+    margin-top: 21px;
+    margin-left: 23px;
+font-size: 26px;
+line-height: 38.19px;
+text-align: left;
+width: 374px;
+height: 85px;
+}
+
+
+/*-----------------------------------------------------------------------------------------------*/
+
+
+.features{
+
+    margin: auto;
+    width: 1170px;
+    margin-top: 12px;
+}
+.FeatureHead{
+    margin-left: 146px;
+font-size: 22px;
+line-height: 60px;
+
+}
+
+.FeaturesHeading{
+
+    width: 500px;
+    font-size: 30px;
+    color: rgba(33, 36, 61, 1);
+
+}
+.FeaturesHeading:hover{
+    color: rgb(56, 2, 2);
+
+}
+.content{
+    display: flex;
+    gap:30px;
+    margin-left: 22px;
+}
+
+.content:hover{
+    transform: scale(-10px);
+    box-shadow: 0 6px 10px rgba(0,0,0,0.15);
+  }
+
+.Image img{
+    width: 346px;
+margin-left: 146px;
+margin-top: 45px;
+border-radius: 10px;
+
+
+}
+
+.Year{
+    display: flex;
+    gap:36px;
+}
+
+.FeatuesInformation{
+    width: 594px;
+font-size: 16px;
+line-height: 23.5px;
+
+}
+
+.work{
+    font-size: 20px;
+    color: rgba(134, 149, 164, 1);
+}
+
+.yearColor{
+
+
+    width: 62px;
+height: 25px;
+
+    text-align: center;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: rgba(20, 40, 80, 1);
+    color: aliceblue;
+}
+
+/*---------------------------------------------------------------------------------------------------*/
+.Footer{
+    margin: auto;
+    width: 1170px;
+    height: 396px;
+    margin-top: 125px;
+    box-sizing:border-box;
+}
+
+.FooterLogo{
+     text-align: center;
+}
+
+
+.FooterLogo a{
+    margin-left: 35px;
+}
+.FooterLogo img:hover{
+    transform: scale(1.2);
+}
+
+.text{
+    text-align: center;
+    
+}
+.text p{
+    margin-left: 35px;
+    color: rgba(33, 36, 61, 1);
+    ;
+}
+
+
+
+@media screen and (max-width: 767px) {
+    /* General Container and Body adjustments */
+    .Container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .Head {
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .MainContent{
+        flex-direction: column-reverse;
+        justify-content: center; 
+    }
+    .Content{
+        width: 312px;
+        margin-right: 43px;
+    }
+    .personLogo{
+        margin-left: 57px;
+    }
+
+
+    .Heading{
+        width: 312px;
+        height: 120px;
+        margin-right: 500px;
+        
+    }
+
+    .paraOne{
+        width: 312px;
+        margin-right: 500px;
+        margin-top: 90px;
+    }
+
+    .card{
+        flex-direction: column-reverse;
+    }
+
+    .PostHead{
+        align-items: center;
+        margin-top: 20px;
+        margin-right: 500px;
+    }
+
+
+    .Post{
+        width: 100%;
+        padding: 10px;
+    }
+    .features{
+        width: 100%;
+        padding: 10px; 
+    }
+
+    .content{
+        flex-direction: column;
+    }
+
+
+
+
+    
+    .Container {
+        width: 375px; 
+        padding: 20px;
+       
+    }
+
+    .Head {
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+
+
+    .MainContent {
+        
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .features{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .content{
+        width: 767px;
+        flex-direction: column;
+    }
+
+    .CardOne {
+       
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+    }
+
+    .FeaturesHeading h3 {
+        font-size: 18px;
+    }
+
+    .PostHead{
+        width: 767px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .Year p {
+        font-size: 14px;
+        margin-right: 10px;
+    }
+
+    .FeatuesInformation {
+        width: 100%;
+        font-size: 12px;
+       
+    }
+
+    .Image img {
+        width: 346px;
+        margin-top: 45px;
+        border-radius: 10px;
+    }
+
+
+  
+
+
+}
+
+
+
+
+
+/* @media screen and (max-width: 320px) {
+   
+   
+
+    
+   
+
+    .Logo ul {
+        list-style-type: none;
+    }
+
+    .Logo ul li a {
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .Nav {
+        display: flex;
+        gap: 20px;
+    }
+
+    .Nav li a {
+        text-decoration: none;
+        font-size: 16px;
+        color: #333;
+    }
+
+   
+   
+
+    .Heading {
+        font-size: 36px;
+        margin-right: 30px;
+        line-height: 1.4;
+    }
+
+    .paraOne {
+        font-size: 18px;
+        max-width: 600px;
+    }
+
+    .btn a {
+        text-decoration: none;
+        color: #fff;
+        background-color: #007bff;
+        padding: 10px 20px;
+        border-radius: 5px;
+    }
+
+    .personLogo {
+        margin-left: 50px;
+    }
+
+    .card {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    
+
+    .CardOne h3 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .CardOne .Info {
+        font-size: 14px;
+        color: #777;
+        margin-bottom: 10px;
+    }
+
+    .PostHead {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .viewAll a {
+        font-size: 16px;
+        text-decoration: none;
+        color: #007bff;
+    }
+
+    
+    .features {
+        margin-top: 40px;
+    }
+
+    .FeatureHead a {
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    .featuresContent {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    
+    
+  
+    .Footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 40px;
+    }
+
+    .FooterLogo a img {
+        width: 24px;
+        height: 24px;
+        margin: 0 10px;
+    }
+
+    .text p {
+        font-size: 14px;
+        color: #777;
+    }
+} */
+
