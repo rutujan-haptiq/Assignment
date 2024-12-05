@@ -196,11 +196,19 @@ letter-spacing: 0.10000000149011612px;
     padding: 40px;
 }
 
-
-    .card:hover{
+.cardFacilitys{
+    background-color:rgba(37, 43, 66, 1); 
+    color: white;
+    border: none;
+}
+.cardFacilitys:hover{
+    transform: scale(1.1);
+    
+}
+.cardIndustry:hover{
         transform: scale(1.1);
         
-    }
+}
 
 
 
@@ -261,6 +269,11 @@ margin-bottom: 15px;
 .pricingCardPage{
     text-align: center;
    
+}
+
+.priceCard:hover{
+
+    box-shadow: 0 8px 16px white;
 }
 
 .industryPageWrapper{
@@ -483,7 +496,7 @@ text-align: center;
      .pricingCards{
         /* display: flex;
         flex-direction: column; */
-        gap: 20px;
+        gap: 40px;
     } 
     .info{
         display: flex;
