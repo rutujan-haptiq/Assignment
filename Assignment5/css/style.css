@@ -405,6 +405,10 @@ color: white;
 margin-bottom: 10px;
 }
 
+.footLink a:hover{
+    color: brown;
+}
+
 .footContact{
     display: flex;
     gap:20px;
