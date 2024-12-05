@@ -253,10 +253,10 @@ margin-bottom: 15px;
 }
 
 .pricingCards{
-    display: flex;
+    /* display: flex; */
     /* gap:30px; */
-    justify-content: center;
-}
+     justify-content: center;
+} 
 
 .pricingCardPage{
     text-align: center;
