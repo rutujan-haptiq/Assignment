@@ -102,8 +102,8 @@ margin-bottom: 35px;
 }
 
 .cards{
-    display: flex;
-    justify-content: space-between;
+    /* display: flex;*/
+    justify-content: space-between; 
     margin-top: 112px;
     margin-bottom: 96px;
    
@@ -166,9 +166,9 @@ margin-bottom: 10px;
 }
 
 .industryCards{
-    display: flex;
+     display: flex;
     gap: 120px;
-    justify-content: center;    
+    justify-content: center;
 }
 
 .cardIndustry{
@@ -254,7 +254,7 @@ margin-bottom: 15px;
 
 .pricingCards{
     display: flex;
-    gap:30px;
+    /* gap:30px; */
     justify-content: center;
 }
 
@@ -461,25 +461,30 @@ text-align: center;
         align-items: center;
         width: 185px;
     }
-    .cards{
+    /* .cards{
         display: flex;
         flex-direction: column;
         align-items: center;
+    } */
+
+    .cards{
+        justify-content: center;
     }
 
-    .industryCards{
+    /* .industryCards{
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
+    } */
     .cardIndustry{
         width: 342px;
     }
 
-    .pricingCards{
-        display: flex;
-        flex-direction: column;
-    }
+     .pricingCards{
+        /* display: flex;
+        flex-direction: column; */
+        gap: 20px;
+    } 
     .info{
         display: flex;
         flex-direction: column;
