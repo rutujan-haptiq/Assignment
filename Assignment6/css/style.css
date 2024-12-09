@@ -677,6 +677,10 @@ line-height: 48.16px;
        align-items: center;
     }
 
+    .searchByFood{
+        width: 100%;
+    }
+
     .processToOrder{
         width: 100%;
     }
@@ -706,6 +710,20 @@ line-height: 48.16px;
         line-height: 72.08px;
         margin-bottom: 16px;
         
+    }
+    .searchByFoodHeading{
+       
+font-weight: 300;
+
+
+    }
+
+    .searchByFoodHeadingRow{
+            display: flex;
+            flex-direction: column;
+    }
+    .viewAll{
+        display: none;
     }
 
     .installationButton{
